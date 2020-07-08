@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>썬더go! 소개 웹페이지</title>
+	<link rel="stylesheet" type="text/css" href="full-page-scroll.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	@font-face { 
+		font-family: 'TTTogether'; 
+		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff'); 
+		font-weight: normal; 
+		font-style: normal; }
+		
+	.section1 {
+		background-image:url(img/fis.png);
+		background-position:center;
+	}
+
+	.section2 {
+		background-image:url(img/sec.png);
+		background-position:center;
+	}
+
+	.section3 {
+		background-image:url(img/thi.png);
+		background-position:center;
+	}
+
+	.section4 {
+		background-image:url(img/fou.png);
+		background-position:center;
+	}
+			
+	section div {
+		font-family: 'Open Sans';
+		font-style: normal;
+		text-align: center;
+		position: relative;
+		top: 50%;  
+		transform: translateY(-50%);
+	}
+
+	span {
+		font-size: 4em;
+		font-style: normal;
+		color: #fff;
+	}
+	html, body {
+  width: 100%;  
+  height: 100%;
+  background: #FF7777;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  height: 100px;
+}
+
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  font-family: 'TTTogether', cursive;
+  font-size: 120px;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+h1 span:nth-child(2) { animation-delay: .1s; }
+h1 span:nth-child(3) { animation-delay: .2s; }
+h1 span:nth-child(4) { animation-delay: .3s; }
+h1 span:nth-child(5) { animation-delay: .4s; }
+h1 span:nth-child(6) { animation-delay: .5s; }
+h1 span:nth-child(7) { animation-delay: .6s; }
+h1 span:nth-child(8) { animation-delay: .7s; }
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+
+	</style>	
+</head>
+<body>
+	<div id="main" class="scroll-container">
+		<section class="section1">
+			<div>	<h1>
+					<span>T</span>
+					<span>h</span>
+					<span>u</span>
+					<span>n</span>
+					<span>d</span>
+					<span>e</span>
+					<span>r</span>
+					<span>g</span>
+					<span>o</span>
+					<span>!</span>
+				  </h1>		</div>
+			
+		
+		</section>
+		<section class="section2">
+			<div>
+							
+			</div>
+		</section>
+		<section class="section3">
+			<div>
+				&nbsp;&nbsp;&nbsp;
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<video width="480" height="350" controls>
+				<source src="video/category_1.mp4" type="video/mp4">
+				</video>
+				<video width="480" height="350" controls>
+				<source src="video/category_2.mp4" type="video/mp4">
+				</video>
+				<p>
+				<video width="480" height="350" controls>
+				<source src="video/category_3.mp4" type="video/mp4">
+				</video>
+				<video width="480" height="350" controls>
+				<source src="video/category_4.mp4" type="video/mp4">
+				</video>					
+			</div>
+		</section>
+		<section class="section4">
+			<div>
+								
+			</div>
+		</section>
+	</div>
+	<script src="full-page-scroll.js"></script>
+	<script type="text/javascript">
+		new fullScroll({
+			displayDots: true,
+			dotsPosition: 'left',
+			animateTime: 0.7,
+			animateFunction: 'ease'
+		});
+	</script>
+</body>
+</html>
